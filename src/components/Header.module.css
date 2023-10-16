@@ -1,0 +1,27 @@
+.header {
+    background: var(--gray-800);
+    display: flex;
+    padding: 1.25rem 0;
+    align-items: center;
+    
+}
+
+.header .igniteLogo {
+    height: 2rem;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.header .avatar {
+    box-sizing: initial;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3px; 
+    outline: 2px solid var(--green-500);
+    margin-left: auto;
+}
+
+.header .userName {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
